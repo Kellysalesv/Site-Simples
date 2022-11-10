@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fffffe;
+    background: #ff8906;
+
+}
+
+header {
+    text-align: center;
+    background-color: #0f0e17;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 37px;
+    background: #0f0e17;
+    box-shadow: inset 25px 25px 49px #09080e,
+        inset -25px -25px 49px #151420;
+}
+
+header a {
+    margin-right: 25px;
+    color: #fffffe;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header a:hover {
+    background-color: #fffffe;
+    color: #ff8906;
+    font-size: larger;
+    transform: 1s;
+}
+
+main {
+    width: 80%;
+    border-color: #ff8906;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    padding: 20px;
+    background-color: #0f0e17;
+    color: #a7a9be;
+    border-radius: 35px;
+}
+h1{
+    color: #fffffe;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+main img {
+    width: 30%;
+    margin: 50px auto;
+    display: block;
+}
+
+main table {
+    border: 2px solid whitesmoke;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+main table td {
+    border-bottom: 1px solid whitesmoke;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+main th {
+    width: 100px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main#Modelos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+main#Modelos h3 {
+    text-align: center;
+}
+
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}
